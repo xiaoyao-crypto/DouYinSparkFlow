@@ -2,7 +2,31 @@ name: DouYin Spark Flow Schedule Run
 on:
   workflow_dispatch: # 允许手动触发
   schedule: # 定时任务
-    - cron: "0 7 * * *" # 每天 1:00 UTC（对应北京时间 9:00）
+    - cron: "0 8 * * *" 
+# CST 00:00 | cron: "0 16 * * *"
+# CST 01:00 | cron: "0 17 * * *"
+# CST 02:00 | cron: "0 18 * * *"
+# CST 03:00 | cron: "0 19 * * *"
+# CST 04:00 | cron: "0 20 * * *"
+# CST 05:00 | cron: "0 21 * * *"
+# CST 06:00 | cron: "0 22 * * *"
+# CST 07:00 | cron: "0 23 * * *"
+# CST 08:00 | cron: "0 0 * * *"
+# CST 09:00 | cron: "0 1 * * *"
+# CST 10:00 | cron: "0 2 * * *"
+# CST 11:00 | cron: "0 3 * * *"
+# CST 12:00 | cron: "0 4 * * *"
+# CST 13:00 | cron: "0 5 * * *"
+# CST 14:00 | cron: "0 6 * * *"
+# CST 15:00 | cron: "0 7 * * *"
+# CST 16:00 | cron: "0 8 * * *"
+# CST 17:00 | cron: "0 9 * * *"
+# CST 18:00 | cron: "0 10 * * *"
+# CST 19:00 | cron: "0 11 * * *"
+# CST 20:00 | cron: "0 12 * * *"
+# CST 21:00 | cron: "0 13 * * *"
+# CST 22:00 | cron: "0 14 * * *"
+# CST 23:00 | cron: "0 15 * * *"
 jobs:
   run-main:
     timeout-minutes: 20
