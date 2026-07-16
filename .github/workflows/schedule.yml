@@ -2,7 +2,7 @@ name: DouYin Spark Flow Schedule Run
 on:
   workflow_dispatch: # 允许手动触发
   schedule: # 定时任务
-    - cron: "0 17 * * *" 
+    - cron: "0 2 * * *" 
 # CST 00:00 | cron: "0 16 * * *"
 # CST 01:00 | cron: "0 17 * * *"
 # CST 02:00 | cron: "0 18 * * *"
